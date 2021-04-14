@@ -1,0 +1,30 @@
+ALGORITHM dot_product
+
+VAR
+    V1,V2:array[];
+    A,B:integer;
+
+BEGIN
+    function : dot_product(a,b){
+        A:=a[0]*b[0]+a[1]*b[1];
+        return A;
+    }
+
+
+    for i from 0 to n do
+     read(v1);
+     read(v2);
+     k:=dot_procedure(v1,v2);
+
+
+      if B=0 then
+       write(‘vectors are orthogonals’);
+
+
+      else write(‘vectors are not orthogonals’);
+
+      end_if
+
+    end_for
+
+END
